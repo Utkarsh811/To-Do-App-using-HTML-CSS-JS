@@ -1,0 +1,91 @@
+ *{
+     margin : 0;
+     padding : 0;
+     box-sizing: border-box;;
+     position: relative;
+ }
+ 
+ .input1{
+    border: 2px solid red;
+    position: absolute;
+    right: 50vh;
+    
+    width: 50vw;
+    
+    height: 50vh;
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.boxin{
+    border: 2px solid green;
+    display: flex;
+    width: 20vw;
+    height: 8vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#boxout{
+     overflow-y: scroll;
+     
+    list-style: decimal;
+    border: 2px dashed white;
+    height:25vh;
+    width:20vw;
+    
+}
+::-webkit-scrollbar {
+    width: 2px;
+  }
+
+::-webkit-scrollbar-track {
+    background: rgb(255, 254, 254);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(136, 136, 136);
+    border-radius: 10px;
+    
+  }
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+  }
+
+::-webkit-scrollbar-thumb:active {
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+  }
+
+  #btn2{
+      color: rgb(233, 227, 227);
+      background-color: crimson;
+      border: 2px dashed rgba(220, 20, 60, 0.712);
+  }
+  #btn2:hover{
+    color: rgb(233, 227, 227);
+    background-color: rgba(220, 20, 60, 0.712);
+   
+}
+
+#btn{
+    color: rgb(233, 227, 227);
+    background-color: rgb(3, 151, 11);
+    border: 2px dashed rgb(3, 151, 11);
+}
+#btn:hover{
+  color: rgb(233, 227, 227);
+  background-color: rgba(3, 151, 10, 0.692);
+ 
+}
+ 
